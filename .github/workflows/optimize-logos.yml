@@ -62,4 +62,4 @@ jobs:
           git config user.email "bot@nanoolabs.dev"
           git add .
           git diff --staged --quiet || git commit -m "chore(sync): update brand assets from changelog [⌐■_■]"
-          git push origin main
+          git push https://x-access-token:${PAT}@github.com/nanoolabs/assets.git HEAD:main
