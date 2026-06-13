@@ -4,6 +4,7 @@ A repository for tracking the history, architecture decisions, and logic changes
 
 ## Log:
 
+- [Architecture Decision Records (ADR)](./adr/) - Documentation of technical and architectural decisions.
 - [Brand & Visual Identity](./brand.md) - History Logo, Typography, Design, up to Assets.
 - [Ecosystems](./ecosystems.md) -
 - [Project](./project.md) -
