@@ -1,0 +1,31 @@
+name: Optimize Brand Logos
+
+on:
+  push:
+    paths:
+      - "brands/**/*.svg"
+  workflow_dispatch:
+
+jobs:
+  optimize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: Optimize SVGs
+        run: |
+          find brands -name "*.svg" -not -path "brands/v.0.0.1/*" -exec bunx svgo {} --config brands/svgo.config.js \;
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "nanoobot"
+          git config --global user.email "bot@nanoolabs.dev"
+          git add brands/**/*.svg
+          git diff --staged --quiet || git commit -m "chore: optimize brand logos [bunx] [⌐■_■]"
+          git push
