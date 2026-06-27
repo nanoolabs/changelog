@@ -2,37 +2,37 @@
 
 ## Overview
 
-The Nanoo logo represent visual identity of Nanoo. It has evolved from a simple mobile design into a clean, professional vector mark used in modern web projects.
+The Nanoo logo represents the visual identity of Nanoo. It has evolved from a simple mobile design into a clean, professional vector mark used in modern web projects.
 
 ## Visual Gallery
 
-Because the **Dark Mode** logo are white (#FFFFFF), they might look invisible on light background. Use the table below to preview them correctly.
+Because the **Dark Mode** logos are white (`#FFFFFF`), they might look invisible on a light background. Use the table below to preview them correctly.
 
-| Version                | Light Background (Dark Logo)                      | Dark Background (Light Logo)                                                                                                   |
-| :--------------------- | :------------------------------------------------ | :----------------------------------------------------------------------------------------------------------------------------- |
-| **v.2.0.0**            | <img src="./brands/v.2.0.0/nanoo-light.svg" width="100"> | <img src="./brands/v.1.5.0/nanoo-dark.svg" width="100"> |
-| **v.1.5.0**            | <img src="./brands/v.1.5.0/nanoo-light.svg" width="100"> | <div style="background: #000000; padding: 10px; display: inline-block;"><img src="./brands/v.1.5.0/nanoo-dark.svg" width="100"></div> |
-| **v.1.4.2**            | <img src="./brands/v.1.4.2/nanoo-light.svg" width="100"> | <div style="background: #000000; padding: 10px; display: inline-block;"><img src="./brands/v.1.4.2/nanoo-dark.svg" width="100"></div> |
-| **v.1.2.0** (Archived) | <img src="./brands/v.1.2.0/nanoo-light.svg" width="100"> | <div style="background: #000000; padding: 10px; display: inline-block;"><img src="./brands/v.1.2.0/nanoo-dark.svg" width="100"></div> |
-| **v.0.0.1** (Archived) | <img src="./brands/v.0.0.1/nanoo-light.svg" width="100"> | <div style="display: inline-block;"><img src="./brands/v.0.0.1/nanoo-dark.svg" width="100"></div>                                     |
+| Version                  | Light Background (Dark Logo)                                                | Dark Background (Light Logo)                                                                                                                            |
+| :----------------------- | :-------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **v.2.0.0**              | <img src="./brands/v.2.0.0/nanoo-light.svg" width="100" alt="v2.0.0 Light"> | <img src="./brands/v.2.0.0/nanoo-dark.svg" width="100" alt="v2.0.0 Dark">                                                                               |
+| **v.1.5.0**              | <img src="./brands/v.1.5.0/nanoo-light.svg" width="100" alt="v1.5.0 Light"> | <div style="background: #000000; padding: 10px; display: inline-block;"><img src="./brands/v.1.5.0/nanoo-dark.svg" width="100" alt="v1.5.0 Dark"></div> |
+| **v.1.4.2**              | <img src="./brands/v.1.4.2/nanoo-light.svg" width="100" alt="v1.4.2 Light"> | <div style="background: #000000; padding: 10px; display: inline-block;"><img src="./brands/v.1.4.2/nanoo-dark.svg" width="100" alt="v1.4.2 Dark"></div> |
+| **v.1.2.0** _(Archived)_ | <img src="./brands/v.1.2.0/nanoo-light.svg" width="100" alt="v1.2.0 Light"> | <div style="background: #000000; padding: 10px; display: inline-block;"><img src="./brands/v.1.2.0/nanoo-dark.svg" width="100" alt="v1.2.0 Dark"></div> |
+| **v.0.0.1** _(Archived)_ | <img src="./brands/v.0.0.1/nanoo-light.svg" width="100" alt="v0.0.1 Light"> | <div style="background: #000000; padding: 10px; display: inline-block;"><img src="./brands/v.0.0.1/nanoo-dark.svg" width="100" alt="v0.0.1 Dark"></div> |
 
 ## Brand Evolution
 
-The logo started as a draft created in PixelLab. Later, we move design to Inkscape to create high quality vector file. This change ensure that the logo looks sharp at any size.
+The logo started as a draft created in PixelLab. Later, we moved the design to Inkscape to create a high-quality vector file. This change ensures that the logo looks sharp at any size.
 
-We also updated the typography over time, moving from early fonts to the current **Geist** font to match a modern and simple.
+We also updated the typography over time, moving from early fonts to the current **Geist** font to match a modern and simple aesthetic.
 
 ## Changelog
 
-| Version     | Date         | Description                                                    |
-| :---------- | :----------- | :------------------------------------------------------------- |
-| **v.2.0.0** | June 27, 2026| Revamp Logo Nanoo. Inspired from Black hole to represents the letter "O/o".
-| **v.1.5.0** | May 20, 2026 | Switched font to **Geist**. Final path optimization.           |
-| **v.1.4.2** | May 18, 2026 | Minor path adjustments and metadata cleanup.                   |
-| **v.1.2.0** | May 08, 2026 | **[Archived]** First pure vector version using **Adwaita Sans** font (Move to Inkscape).         |
-| **v.0.0.1** | Mar 08, 2026 | **[Archived]** Initial draft. Converted from PixelLab (PNG) to Inkscape SVG. |
+| Version     | Date          | Description                                                                               |
+| :---------- | :------------ | :---------------------------------------------------------------------------------------- |
+| **v.2.0.0** | June 27, 2026 | Revamp Nanoo Logo. Inspired by a black hole to represent the letter "O/o".                |
+| **v.1.5.0** | May 20, 2026  | Switched font to **Geist**. Final path optimization.                                      |
+| **v.1.4.2** | May 18, 2026  | Minor path adjustments and metadata cleanup.                                              |
+| **v.1.2.0** | May 08, 2026  | **[Archived]** First pure vector version using **Adwaita Sans** font (Moved to Inkscape). |
+| **v.0.0.1** | Mar 08, 2026  | **[Archived]** Initial draft. Converted from PixelLab (PNG) to Inkscape SVG.              |
 
 ---
 
-**Author:** Adnan Slamet Wibowo (Nanoolabs)
+**Author:** Adnan Slamet Wibowo (Nanoolabs)  
 **Official URL:** [nanoolabs.dev](https://nanoolabs.dev)
