@@ -14,7 +14,6 @@ module.exports = {
       active: false,
     },
     // other plugin
-    "removeXMLNS",
     "removeEditorsNSData",
   ],
 }
