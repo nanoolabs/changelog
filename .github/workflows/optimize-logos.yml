@@ -20,7 +20,7 @@ jobs:
 
       - name: Optimize SVGs
         run: |
-          find brands -name "*.svg" -not -path "brands/v.0.0.1/*" -exec bunx svgo {} --config brands/svgo.config.js \;
+          find brands -name "*.svg" -not -path "brands/v.0.0.1/*" -exec bunx svgo {} --config svgo.config.js \;
 
       - name: Commit and Push Changes to Changelog
         run: |
