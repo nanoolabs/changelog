@@ -10,7 +10,8 @@ Because the **Dark Mode** logos are white (`#FFFFFF`), they might look invisible
 
 | Version                  | Light Background (Dark Logo)                                                | Dark Background (Light Logo)                                                                                                                            |
 | :----------------------- | :-------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **v.2.0.0**              | <img src="./brands/v.2.0.0/nanoo-light.svg" width="100" alt="v2.0.0 Light"> | <img src="./brands/v.2.0.0/nanoo-dark.svg" width="100" alt="v2.0.0 Dark">                                                                               |
+| **v.2.1.0**              | <img src="./brands/v.2.1.0/nanoo-light.svg" width="100" alt="v2.1.0 Light"> | <div style="background: #000000; padding: 10px; display: inline-block;"><img src="./brands/v.2.1.0/nanoo-dark.svg" width="100" alt="v2.1.0 Dark"></div> |
+| **v.2.0.0**              | <img src="./brands/v.2.0.0/nanoo-light.svg" width="100" alt="v2.0.0 Light"> | <div style="background: #000000; padding: 10px; display: inline-block;"><img src="./brands/v.2.0.0/nanoo-dark.svg" width="100" alt="v2.0.0 Dark"></div> |
 | **v.1.5.0**              | <img src="./brands/v.1.5.0/nanoo-light.svg" width="100" alt="v1.5.0 Light"> | <div style="background: #000000; padding: 10px; display: inline-block;"><img src="./brands/v.1.5.0/nanoo-dark.svg" width="100" alt="v1.5.0 Dark"></div> |
 | **v.1.4.2**              | <img src="./brands/v.1.4.2/nanoo-light.svg" width="100" alt="v1.4.2 Light"> | <div style="background: #000000; padding: 10px; display: inline-block;"><img src="./brands/v.1.4.2/nanoo-dark.svg" width="100" alt="v1.4.2 Dark"></div> |
 | **v.1.2.0** _(Archived)_ | <img src="./brands/v.1.2.0/nanoo-light.svg" width="100" alt="v1.2.0 Light"> | <div style="background: #000000; padding: 10px; display: inline-block;"><img src="./brands/v.1.2.0/nanoo-dark.svg" width="100" alt="v1.2.0 Dark"></div> |
@@ -26,7 +27,8 @@ We also updated the typography over time, moving from early fonts to the current
 
 | Version     | Date          | Description                                                                               |
 | :---------- | :------------ | :---------------------------------------------------------------------------------------- |
-| **v.2.0.0** | June 27, 2026 | Revamp Nanoo Logo. Inspired by a black hole to represent the letter "O/o".                |
+| **v.2.1.0** | June 28, 2026 | Optimized geometry using Boolean difference (`Ctrl` + `-`) to a true single path transparent vector cut out. |
+| **v.2.0.0** | June 27, 2026 | Revamp Nanoo Logo. Inspired by a black hole to represent the letter "O/o".           |
 | **v.1.5.0** | May 20, 2026  | Switched font to **Geist**. Final path optimization.                                      |
 | **v.1.4.2** | May 18, 2026  | Minor path adjustments and metadata cleanup.                                              |
 | **v.1.2.0** | May 08, 2026  | **[Archived]** First pure vector version using **Adwaita Sans** font (Moved to Inkscape). |
@@ -34,5 +36,5 @@ We also updated the typography over time, moving from early fonts to the current
 
 ---
 
-**Author:** Adnan Slamet Wibowo (Nanoolabs)  
+**Author:** Adnan Slamet Wibowo (nanoolabs)
 **Official URL:** [nanoolabs.dev](https://nanoolabs.dev)
