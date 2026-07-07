@@ -25,14 +25,14 @@ We also updated the typography over time, moving from early fonts to the current
 
 ## Changelog
 
-| Version     | Date          | Description                                                                               |
-| :---------- | :------------ | :---------------------------------------------------------------------------------------- |
+| Version     | Date          | Description                                                                                                  |
+| :---------- | :------------ | :----------------------------------------------------------------------------------------------------------- |
 | **v.2.1.0** | June 28, 2026 | Optimized geometry using Boolean difference (`Ctrl` + `-`) to a true single path transparent vector cut out. |
-| **v.2.0.0** | June 27, 2026 | Revamp Nanoo Logo. Inspired by a black hole to represent the letter "O/o".           |
-| **v.1.5.0** | May 20, 2026  | Switched font to **Geist**. Final path optimization.                                      |
-| **v.1.4.2** | May 18, 2026  | Minor path adjustments and metadata cleanup.                                              |
-| **v.1.2.0** | May 08, 2026  | **[Archived]** First pure vector version using **Adwaita Sans** font (Moved to Inkscape). |
-| **v.0.0.1** | Mar 08, 2026  | **[Archived]** Initial draft. Converted from PixelLab (PNG) to Inkscape SVG.              |
+| **v.2.0.0** | June 27, 2026 | Revamp Nanoo Logo. Inspired by a black hole to represent the letter "O/o".                                   |
+| **v.1.5.0** | May 20, 2026  | Switched font to **Geist**. Final path optimization.                                                         |
+| **v.1.4.2** | May 18, 2026  | Minor path adjustments and metadata cleanup.                                                                 |
+| **v.1.2.0** | May 08, 2026  | **[Archived]** First pure vector version using **Adwaita Sans** font (Moved to Inkscape).                    |
+| **v.0.0.1** | Mar 08, 2026  | **[Archived]** Initial draft. Converted from PixelLab (PNG) to Inkscape SVG.                                 |
 
 ---
 
