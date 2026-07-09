@@ -22,44 +22,12 @@ jobs:
         run: |
           find brands -name "*.svg" -not -path "brands/v.0.0.1/*" -exec bunx svgo {} --config svgo.config.js \;
 
-      - name: Commit and Push Changes to Changelog
-        run: |
-          git config --global user.name "nanoobot"
-          git config --global user.email "bot@nanoolabs.dev"
-          git add brands/
-          git diff --staged --quiet || git commit -m "chore: optimize brand logos [bunx] [⌐■_■]"
-          git push
+      - name: Update brands/latest/
+        run: bash scripts/update-latest.sh
 
-      - name: "Silent Bridge: Sync to private assets"
+      - name: Deploy brands to B2
         env:
-          PAT: ${{ secrets.NANOOBOT_PAT }}
-        run: |
-          # 1. Clone the private assets repository
-          git clone https://x-access-token:${PAT}@github.com/nanoolabs/assets.git private-assets
-
-          # 2. Sync files from changelog to assets
-          # mirror the brands directory structure
-          mkdir -p private-assets/public/brands
-          cp -r brands/* private-assets/public/brands/
-
-          # 3. Update the 'latest' folder logic
-          cd private-assets
-          BRAND_DIR="public/brands"
-          LATEST_VERSION=$(ls -d $BRAND_DIR/v.*/ 2>/dev/null | sort -V | tail -n 1)
-
-          if [ -z "$LATEST_VERSION" ]; then
-              echo "Error: No version folder found"
-              exit 1
-          fi
-
-          echo "Syncing latest version: $(basename $LATEST_VERSION)"
-          rm -rf "$BRAND_DIR/latest"
-          mkdir -p "$BRAND_DIR/latest"
-          cp -r "$LATEST_VERSION"* "$BRAND_DIR/latest/"
-
-          # 4. Commit and push back to private repo
-          git config user.name "nanoobot"
-          git config user.email "bot@nanoolabs.dev"
-          git add .
-          git diff --staged --quiet || git commit -m "chore(sync): update brand assets from changelog [⌐■_■]"
-          git push https://x-access-token:${PAT}@github.com/nanoolabs/assets.git HEAD:main
+          B2_KEY_ID: ${{ secrets.B2_KEY_ID }}
+          B2_APPLICATION_KEY: ${{ secrets.B2_APPLICATION_KEY }}
+          B2_BUCKET_NAME: ${{ secrets.B2_BUCKET_NAME }}
+        run: bash scripts/sync-b2.sh confirm
