@@ -30,8 +30,8 @@ jobs:
           git diff --staged --quiet || git commit -m "chore: optimize brand logos [bunx] [automated]"
           git push
 
-      - name: Install rclone
-        run: sudo apt-get install -y rclone
+      - name: Install Rclone (Official Latest Stable)
+        run: curl https://rclone.org/install.sh | sudo bash
 
       - name: Update brands/latest/
         run: bash scripts/update-latest.sh
