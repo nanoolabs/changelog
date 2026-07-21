@@ -1,6 +1,6 @@
 # ADR [Number]: [Short Title]
 
-- **Status:** [Proposed | Accepted | Superseded]
+- **Status:** [Draft | Proposed | Accepted | Superseded]
 - **Date:** YYYY-MM-DD
 - **Deciders:** [Name/Role]
 
