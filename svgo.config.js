@@ -6,14 +6,10 @@ module.exports = {
       params: {
         overrides: {
           removeComments: false,
+          cleanupIds: false,
         },
       },
     },
-    {
-      name: "cleanupIds",
-      active: false,
-    },
-    // other plugin
     "removeEditorsNSData",
   ],
 }

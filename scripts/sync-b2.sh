@@ -8,6 +8,5 @@ DRY_RUN="--dry-run"
 rclone sync "$SOURCE" :b2:"$BUCKET"/brands \
   $DRY_RUN \
   --b2-account "$B2_KEY_ID" \
-  --b2-key "$B2_APPLICATION_KEY" \
-  --progress --fast-list
+  --b2-key "$B2_APPLICATION_KEY"
 echo "Sync complete"
