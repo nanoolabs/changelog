@@ -1,6 +1,6 @@
 # ADR 003: @nlbs/css - System Design for Every Project Nanoo Website
 
-- **Status:** Draft
+- **Status:** Accepted
 - **Date:** 2026-07-21
 - **Deciders:** Adnan Slamet Wibowo
 
@@ -19,10 +19,9 @@ So, this minimize hardcoded, redundancy, and inconsistency styling. And Then thi
 ### Positive [⌐■_■]
 
 - **Consistency:** Every websites Nanoo have design, theme, and styling same
-<!-- - [What are the benefits for the system?] -->
-<!-- - [How does it affect performance?] -->
 
 ### Negative [ ✖_✖ ]
 
-<!-- - [What are the trade-offs?] -->
-<!-- - [What are the limitations we must accept?] -->
+- **Single coupling point.** One token change goes to every site at once. So a breaking
+  CSS change needs a new version of `@nlbs/css`, and every site must re-pin to it. That
+  is a shared release, not a quick fix on one site.
