@@ -14,7 +14,7 @@ versioning rule.
 
 We pick the versioning rule by repo type:
 
-- **Libraries** (`css`, the `app` monorepo, cdn, webrings, kaomoji as single version) → **SemVer** (`v2.2.4`).
+- **Libraries** (`css`, the `app` monorepo, `cdn`, `webrings`, `kaomoji` as single version) → **SemVer** (`v2.2.4`).
   users install them with ranges like `^2.2.0`, so CalVer (which jumps a full year)
   would be unsafe.
 - **Services / sites / data** → **CalVer** (`v2026.07.30`) for **fresh or unsettled**
