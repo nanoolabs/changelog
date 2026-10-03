@@ -6,3 +6,4 @@
 | 002 | [Central Release](./002-central-release.md)                   | Accepted |
 | 003 | [@nlbs/css Design System](./003-nlbs-css-design-system.md)    | Accepted |
 | 004 | [Repository Versioning Scheme](./004-versioning-scheme.md)    | Accepted |
+| 005 | [Release Pipeline V2](/adr/005-release-pipeline.md)           | Accepted |
