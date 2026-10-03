@@ -2,7 +2,7 @@
 
 set -euo pipefail
 BRAND_DIR="brands"
-LATEST_VERSION=$(ls -d "$BRAND_DIR"/v.*/ 2> /dev/null | sort -V | tail -n 1)
+LATEST_VERSION=$(find "$BRAND_DIR"/v.*/ 2> /dev/null | sort -V | tail -n 1)
 if [ -z "$LATEST_VERSION" ]; then
   echo "Error: No version folders found"
   exit 1
