@@ -19,7 +19,7 @@ We pick the versioning rule by repo type:
   would be unsafe.
 - **Services / sites / data** → **CalVer** (`v2026.07.30`) for **fresh or unsettled**
   repos (`docs`, ...). No one uses a range on these, so the version is just a label.
-  A service already at a stable SemVer (e.g. `cdn` at `v2.2.6`) stays SemVer — switching
+  A service already at a stable SemVer (e.g. `cdn` at `v2.2.6`) stays SemVer. Switching
   would reset its version history. The roll-out is per-repo, not a blanket cutover.
 - **`actions` repo** → bare major tag (`v2`), like `actions/checkout@v4`.
 - **Prereleases** (`alpha`, `beta`, `rc`) are folded into the next stable release.

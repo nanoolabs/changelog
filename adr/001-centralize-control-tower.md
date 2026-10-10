@@ -11,7 +11,7 @@ Nanoo Labs need standarization on all repository organization (Welcome Bot, Issu
 ## Decision
 
 So, We using and adjust repository `.github` as the **Control Tower**. All global configuration, automation roadmap via `progress`, and community standart centered here.
-We used **GitHub Actions** witb identity **nanoobot** for independent automation.
+We used **GitHub Actions** witb identity **robonanoo** for independent automation.
 
 ## Consequences
 
