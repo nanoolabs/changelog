@@ -1,11 +1,11 @@
 #!/bin/bash
 
 set -euo pipefail
-SOURCE="brands/"
+SOURCE="logomark/"
 BUCKET="${B2_BUCKET_NAME}"
 DRY_RUN="--dry-run"
 [ "$1" = "confirm" ] && DRY_RUN=""
-rclone sync "$SOURCE" :b2:"$BUCKET"/brands \
+rclone sync "$SOURCE" :b2:"$BUCKET"/logomark \
   $DRY_RUN \
   --b2-account "$B2_KEY_ID" \
   --b2-key "$B2_APPLICATION_KEY"
