@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "logomark/**"
+      - "logotype/**"
   workflow_dispatch:
 
 jobs:
@@ -21,12 +22,13 @@ jobs:
       - name: Optimize SVGs
         run: |
           find logomark -name "*.svg" -not -path "logomark/v0.0.1/*" -exec bunx svgo {} --config svgo.config.js \;
+          find logotype -name "*.svg" -exec bunx svgo {} --config svgo.config.js \;
 
       - name: Commit and push optimized SVGs
         run: |
           git config user.name "robonanoo"
           git config user.email "bot@nanoolabs.dev"
-          git add logomark/
+          git add logomark/ logotype/
           git diff --staged --quiet || git commit -m "chore: optimize brand logos [bunx] [automated]"
           git push
 
@@ -36,7 +38,7 @@ jobs:
       - name: Update logomark/latest/
         run: bash scripts/update-latest.sh
 
-      - name: Deploy logomark to B2
+      - name: Deploy brand assets to B2
         env:
           B2_KEY_ID: ${{ secrets.B2_KEY_ID }}
           B2_APPLICATION_KEY: ${{ secrets.B2_APPLICATION_KEY }}
