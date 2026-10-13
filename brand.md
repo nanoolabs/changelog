@@ -4,6 +4,10 @@
 
 The Nanoo logo represents the visual identity of Nanoo. It has evolved from a simple mobile design into a clean, professional vector mark used in modern web projects.
 
+## Naming
+
+**Nanoo** [/ˈnæ.nuː/](https://ipa-reader.com/?text=%CB%88n%C3%A6.nu%CB%90) (pronounced **nah-noo**). Two syllables, primary stress on first. End in a long "oo" (as in "goose"), not a short "u" (as in "nut"). The IPA `nuː` marks that long vowel; a common misreading is "na-nu", but correct sound is "nah-noo".
+
 ## Visual Gallery
 
 Preview follow your viewer color scheme. Theme aware versions (v2.1.1+) adapt on their own; archive dual-file versions switch via `<picture>`.
